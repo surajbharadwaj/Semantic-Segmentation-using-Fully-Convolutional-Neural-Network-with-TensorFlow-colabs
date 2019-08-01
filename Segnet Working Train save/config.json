@@ -1,0 +1,16 @@
+{
+  "TRAIN_FILE": "SegNet/CamVid/train.txt",
+  "VAL_FILE": "SegNet/CamVid/val.txt",
+  "TEST_FILE": "SegNet/CamVid/test.txt",
+  "IMG_PREFIX": ".",
+  "LABEL_PREFIX": ".",
+  "OPT": "ADAM",
+  "INPUT_HEIGHT": 360,
+  "INPUT_WIDTH": 480,
+  "INPUT_CHANNELS": 3,
+  "NUM_CLASSES": 12,
+  "USE_VGG": false,
+  "VGG_FILE": "vgg16.npy",
+  "TB_LOGS": "tensorboard_logs",
+  "SAVE_MODEL_DIR": "gdrive/My Drive/Colab Notebooks"
+}
